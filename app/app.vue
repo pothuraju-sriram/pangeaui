@@ -34,10 +34,14 @@ useSeoMeta({
         <NuxtLink to="/">
           <p>Gramam</p>
         </NuxtLink>
+        <VillageSelector />
       </template>
 
       <template #right>
+        <UInput icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." />
+        <LanguageSelector />
         <UColorModeButton />
+        <ULink as="button">Contact Us</ULink>
       </template>
     </UHeader>
 
